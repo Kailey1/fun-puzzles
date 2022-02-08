@@ -6,7 +6,7 @@ let rows = 4;
 let w, h;
 
 function preload() {
-  source = loadImage('slide-puzzle.js/olym-pic.jpg');
+  source = loadImage('slide-puzzle/olym-pic.jpg');
 }
 
 function setup() {
@@ -78,7 +78,7 @@ function draw() {
   }
 
   if (isSolved()) {
-    createP('Complete!');
+    // createP('Complete!');
     noLoop();
   }
 }

@@ -87,7 +87,7 @@ let ticTacToe = function(p) {
         let result = p.checkWinner();
         if (result != null) {
             p.noLoop();
-            p.createP(result);
+            // p.createP(result);
         } else {
             p.nextTurn();
         }
